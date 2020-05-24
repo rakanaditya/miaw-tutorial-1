@@ -1,7 +1,8 @@
+const Discord = require('discord.js');
 const http = require('http');
 const express = require('express');
 const app = express();
-app.get("/", (request, response) => {
+app.get("/", (request, response) => { 
   console.log('Pinging');
   response.sendStatus(200);
 });
@@ -11,7 +12,7 @@ setInterval(() => {
 }, 280000);
 
 const  { token, prefix } = require("./config.js");
-const Discord = require('discord.js');
+
 const client = new Discord.Client();
 
 client.on('ready', () => {
