@@ -38,8 +38,8 @@ message.channel.send('``saturday, october 12, 2019``');
 
 
 client.on('message', async message => {
- if (message.content ==="r.invite bot") {
-message.channel.send('``☻cara nya copy dulu **https sampai bot** selanjutnya copy paste di google kalian✔``');
+ if (message.content ==="P") {
+message.channel.send('``☻P mulu salam anjg``');
  }
 });
 
